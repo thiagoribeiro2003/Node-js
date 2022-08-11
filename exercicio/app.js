@@ -11,4 +11,4 @@ for(let i = 0; i < artistas.length; i++){
 // while(i < artistas.length) {
 //     console.log(`${artistas[i]}`);
 //     i++;
-// }
+// } 
