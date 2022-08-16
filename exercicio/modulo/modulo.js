@@ -7,6 +7,6 @@ let artistas = [
 ];
 
 
-
+// export default para ex portar somente um recurso
 export default artistas
 // ou export {artistas}
