@@ -3,7 +3,7 @@ import http from 'http'; // Importando módulo http nativo do node (existe a par
 import fs from 'fs/promises'; // JS assincrono (operações independentes, ocorrem em paralelo). FS = File System(Sistema de arquivos)
 
 const monitorRequisicao = (requisicao, resposta) => { // arrow function
-    
+    // Quando ouver resposta repsponder que estar tudo ok(200) e q vai trabalhar com html e charset=utf8
     resposta.writeHead(200, {"Content-type":"text/html; charset=utf8"});
 
    switch(requisicao.url){
