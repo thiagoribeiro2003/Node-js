@@ -5,9 +5,9 @@ let aluno = 'Thiago';
 let idade = 15
 
 if(idade >= 18){
-    console.log(chalk.green(`${aluno} ${chalk.green('é maior de idade!')}`));
+    console.log(`${aluno} ${chalk.green('é maior de idade!')}`);
 } else {
-    console.log(chalk.red(`${aluno} ${chalk.red('é menor de idade!')}`));
+    console.log((`${aluno} ${chalk.bgGreenBright.white('é menor de idade!')}`));
 }
 
 // Para instalar o chalk utilizamos o comando npm install chalk
