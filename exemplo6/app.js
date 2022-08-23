@@ -6,7 +6,6 @@ const app = express();
 // Configurar a view engine com EJS (O B R I G A T Ó R I O)
 app.set('view engine', 'ejs');
 
-
  // requisição e resposta
 app.get('/', (req, res) => {
     // res.send('Teste'); Sempre q for configurar uma rota teste // ja send apenas exibi algo na tela
@@ -25,7 +24,7 @@ app.get('/contato', (req, res) => {
 })
 
 // Configurando rotas
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log("Servidor express rodando...");
 });
 
